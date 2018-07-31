@@ -10,7 +10,7 @@ function randomEmoji() {
 }
 
 const emoji = randomEmoji();
-const name = prompt("What's your name?");
+const name = prompt("İsmin ne?");
 
 // Generate random chat hash if needed
 if (!location.hash) {
@@ -185,4 +185,4 @@ form.addEventListener('submit', () => {
   insertMessageToDOM(data, true);
 });
 
-insertMessageToDOM({content: 'Chat URL is ' + location.href});
+insertMessageToDOM({content: 'Chat URL ' + location.href});
